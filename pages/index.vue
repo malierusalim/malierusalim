@@ -22,7 +22,7 @@
 
             <div class="flex flex-col mt-8 space-y-3 lg:space-y-0 lg:flex-row">
               <a
-                href="#"
+                href="#map-wrap"
                 class="inline-flex items-center justify-center px-6 py-3 border border-transparent text-base lg:text-lg font-semibold tracking-wider rounded-md text-white bg-red-700 hover:bg-red-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-700"
                 >Где купить?</a
               >
