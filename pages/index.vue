@@ -118,7 +118,7 @@
         <l-map
           :zoom="17"
           :center="[45.19851841664501, 33.376339915874055]"
-          :options="{ scrollWheelZoom: false }"
+          :options="{ scrollWheelZoom: false, dragging: false }"
         >
           <l-tile-layer
             url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"
