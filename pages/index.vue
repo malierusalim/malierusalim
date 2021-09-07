@@ -7,14 +7,14 @@
         >
           <div class="max-w-xl xl:max-w-2xl">
             <h2
-              class="text-4xl font-bold leading-none text-white sm:text-5xl lg:text-6xl xl:text-7xl"
+              class="text-4xl font-bold leading-10 md:leading-none text-white sm:text-5xl lg:text-6xl xl:text-7xl"
             >
               <span class="text-red-600">Красная Нить</span><br />
               из&nbsp;Израиля,
             </h2>
 
             <p
-              class="mt-0 text-3xl text-white leading-none sm:mt-1 lg:mt-2 lg:text-4xl"
+              class="mt-2 text-3xl text-white leading-9 md:leading-9 lg:leading-none sm:mt-1 lg:mt-2 lg:text-4xl"
             >
               освящённая<br />
               на гробнице <span class="font-semibold">Рахели</span>
@@ -41,7 +41,7 @@
       </div>
     </header>
     <div
-      class="selection:bg-red-200 md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 prose lg:prose-xl"
+      class="selection:bg-red-200 md:max-w-2xl lg:max-w-3xl xl:max-w-4xl mx-auto px-4 py-10 sm:px-6 lg:px-8 lg:py-20 prose lg:prose-xl"
     >
       <h2>
         Подлинная
@@ -132,7 +132,7 @@
       </client-only>
     </div>
     <div class="h-24 flex items-center justify-center">
-      <p class="text-xl text-gray-500 font-medium">&copy;{{ getDate }}</p>
+      <p class="text-base md:text-xl text-gray-500 font-medium">&copy;{{ getDate }}</p>
     </div>
   </div>
 </template>
